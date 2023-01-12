@@ -41,7 +41,7 @@ júnior, também pode ajudar a Cyclistic a alcançá-los. ● Equipe executiva
 da Cyclistic: A equipe executiva notoriamente detalhista decidirá se
 aprova o programa de marketing recomendado.
 
-## Perguntar
+## Perguntas
 
 Três perguntas nortearão o futuro programa de marketing: 1. Como os
 membros anuais e os ciclistas casuais usam as bicicletas da Cyclistic de
