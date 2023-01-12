@@ -11,7 +11,7 @@ primeiro, os executivos da Cyclistic devem aprovar suas recomendações que, por
 visualizações de dados profissionais.
 
 ## Perguntas
-###Três perguntas nortearão o futuro programa de marketing:
+##Três perguntas nortearão o futuro programa de marketing:
 
 1 - Como os membros anuais  e os ciclistas casuais usam bicicletas da Cyclistic  de forma diferente?
 2 - Por que os passageiros  casuais iriam querer adquirir planos anuais da Cyclistic?
@@ -19,7 +19,7 @@ visualizações de dados profissionais.
 
 ## Etapas
 
->  (Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise no Excel.
-> (Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados na linguagem de programação R, realizamos alguns tratamentos como limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados, sumário para análise estatística e visuzalização dos dados com gráficos.
-> (Visualização dos Dados) - Criamos um Dashboard no Power BI, realizamos algums análises e obetemos alguns insights para responder as questões acima.
-> (Agir, Apresentação) - Criamos uma apresentação para responder as perguntas e informar outros insights que os dados revelaram.
+1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise no Excel.
+2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados na linguagem de programação R, realizamos alguns tratamentos como limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados, sumário para análise estatística e visuzalização dos dados com gráficos.
+3-(Visualização dos Dados) - Criamos um Dashboard no Power BI, realizamos algums análises e obetemos alguns insights para responder as questões acima.
+4-(Agir, Apresentação) - Criamos uma apresentação para responder as perguntas e informar outros insights que os dados revelaram.
