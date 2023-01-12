@@ -1,4 +1,4 @@
-Estudo de caso: Cyclistic
+Estudo de caso - Cyclistic
 ================
 
 ## Estudo de casos - Cyclistic - Google Certificado - Analista de Dados
@@ -41,7 +41,7 @@ júnior, também pode ajudar a Cyclistic a alcançá-los. ● Equipe executiva
 da Cyclistic: A equipe executiva notoriamente detalhista decidirá se
 aprova o programa de marketing recomendado.
 
-## Perguntas
+## Perguntar
 
 Três perguntas nortearão o futuro programa de marketing: 1. Como os
 membros anuais e os ciclistas casuais usam as bicicletas da Cyclistic de
@@ -485,30 +485,77 @@ aggregate(cycli$duracao_passeio ~ cycli$tipo_membro + cycli$dia_da_semana, FUN =
 
 ## Visualização dos Dados
 
-You can also embed plots, for example:
-
-    ## `summarise()` has grouped output by 'tipo_membro'. You can override using the
-    ## `.groups` argument.
+``` r
+## Analisando a quantidade total de passeio por membros e dia da semana ##
+cycli %>%
+  mutate(dia = wday(started_at, label = TRUE)) %>% 
+  group_by(tipo_membro, dia) %>% 
+  summarise(Total = sum(duracao_passeio)) %>%
+  arrange(dia)%>%
+  ggplot(aes(x = dia, y = Total , fill = tipo_membro)) + geom_col(position = "dodge") + labs(title = "Cyclistic: Duracação de passeio X dia da semana e tipo de membro", x ="Dia da semana", y = "Total Duração Passeio")
+```
 
 ![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
 
+``` r
+## Analisando o total de passeio por bicicleta ##
+cycli %>%
+  group_by(tipo_bike) %>% 
+  summarise(Total = sum(duracao_passeio))%>%
+  ggplot(aes(x = fct_reorder(tipo_bike, Total), y = Total)) + geom_col( fill = "dark green")+ labs(title = "Cyclistic: Tipo de biciclieta X Duracação de Passeio", x ="Tipo de Bicicleta", y = "Total Duração Passeio")
+```
+
 ![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
 
-    ## `summarise()` has grouped output by 'tipo_bike'. You can override using the
-    ## `.groups` argument.
+``` r
+## Analisando qual é o tipo de bicicleta mais utilizado por membros ##
+cycli %>%
+  group_by(tipo_bike, tipo_membro) %>% 
+  summarise(Total = sum(duracao_passeio))%>%
+  ggplot(aes(x = tipo_bike, y = Total , fill = tipo_membro)) + geom_col(position = "dodge")+ labs(title = "Cyclistic: Tipo de Biciclieta X Total de Duração de passeio por membro", y = "Total Duração Passeio", X = "Tipo de Bicicleta" )
+```
 
 ![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
+``` r
+## Analisando a quantidade total VS aluguel por dia ##
+cycli %>%
+  mutate(dia = wday(started_at, label = TRUE)) %>%
+  group_by(tipo_membro, dia) %>%
+  count()%>%
+  arrange(dia)%>%
+  ggplot(aes(x = dia, y = n , fill = tipo_membro)) + geom_col(position = "dodge")+ labs(title = "Cyclistic: Aluguel de Bicicleta X Uso por membro nos dias da Semana", y = "Total Quantidade de Uso", X = "Dia da semana")
+```
+
 ![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+
+``` r
+## Analisando a quantidade de alguel por mês e tipo de membro ##
+cycli%>%
+  mutate(mes = month(started_at, label = TRUE))%>%
+  group_by(mes, tipo_membro)%>%
+  count(tipo_membro)%>%
+  arrange(mes)%>%
+  ggplot(aes(x=mes, y=n, fill = tipo_membro)) + geom_col(position = "dodge")+ labs(title = "Cyclistic: Tipo de Membro X Total de aluguel por mês", y="Total Aluguel", x ="Mês")
+```
 
 ![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
 
-    ## `summarise()` has grouped output by 'mes'. You can override using the `.groups`
-    ## argument.
+``` r
+## Analisando a duração de passeio por mês e tipo de membro ##
+cycli%>%
+  mutate(mes = month(started_at, label = TRUE))%>%
+  group_by(mes, tipo_membro)%>%
+  summarise(Total_duracao_passeio = sum(duracao_passeio))%>%
+  ggplot(aes(x=mes, y=Total_duracao_passeio, fill = tipo_membro)) + geom_col(position = "dodge")+ labs(title = "Cyclistic: Tipo de Membro vs Total Duração de passeio por mês", y="Total Duração Passeio", x ="Mês")
+```
 
 ![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
 
-![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
+``` r
+## Analisando Outliers ##
+cycli%>%
+  ggplot(aes(x=tipo_membro, y=duracao_passeio)) + geom_boxplot(ymax = 200)+ labs(title = "Cyclistic: Boxplot Tipo de membro vs Total de duração de passeio", y="Total duração passeio", x ="Mês")
+```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+![](Estudo-de-Casos_Cyclistic_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
