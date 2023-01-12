@@ -11,7 +11,7 @@ primeiro, os executivos da Cyclistic devem aprovar suas recomendações que, por
 visualizações de dados profissionais.
 
 ## Perguntas
-##Três perguntas nortearão o futuro programa de marketing:
+### Três perguntas nortearão o futuro programa de marketing:
 
 1 - Como os membros anuais  e os ciclistas casuais usam bicicletas da Cyclistic  de forma diferente?
 2 - Por que os passageiros  casuais iriam querer adquirir planos anuais da Cyclistic?
