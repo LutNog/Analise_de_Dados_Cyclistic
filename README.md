@@ -14,7 +14,9 @@ visualizações de dados profissionais.
 ### Três perguntas nortearão o futuro programa de marketing:
 
 1 - Como os membros anuais  e os ciclistas casuais usam bicicletas da Cyclistic  de forma diferente?
+
 2 - Por que os passageiros  casuais iriam querer adquirir planos anuais da Cyclistic?
+
 3 - Como a Cyclistic pode usar a mídia digital para influenciar os passageiros casuais a se tornarem membros?
 
 ## Etapas
