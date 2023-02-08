@@ -27,7 +27,7 @@ visualizações de dados profissionais.
 
 2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados e as bibliotecas tidyverse, dplyr, ggplot2, tidyr e lubridate na linguagem de programação R, realizamos alguns tratamentos como limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados e dados nulos,  criamos um sumário estatístico, identificamos a média e mediana, min e max, com  os gráficos comparamos dados como: duração de passeio por tipo de membro, aluguel de bicicleta por dias da semana e etc...
 
-3-(Visualização dos Dados) - Criamos um Dashboard no Power BI utilizando cartões, filtros, gráfico de barra e de linha e utilizamos mapa para identificar as principais localidades dos usuários, realizamos algumas análises e obtivemos alguns insights para responder as questões acima.
+3-(Visualização dos Dados) - Criamos um Dashboard no Power BI utilizando cartões, filtros, gráfico de barra e de linha, utilizamos mapa para identificar as principais localidades dos usuários, realizamos algumas análises e obtivemos alguns insights para responder as questões acima.
 
 4-(Agir, Apresentação) - Criamos uma apresentação para responder as perguntas e informar outros insights que os dados revelaram.
 
