@@ -35,5 +35,5 @@ visualizações de dados profissionais.
 
 Os membros anuais utilizam as bicicletas com maior frequência na semana e em maior quantidade, porém os ciclistas casuais alugam as bicicletas por maior duração de tempo, há uma grande demanda de uso por eles nos finais de semanas e nas estações climáticas de primavera e verão.
 O ideal seria campanhas focadas em custo/beneficio para os ciclistas casuais, eles utilizam as bicicletas por longos períodos de tempo, o Marketing de mídia digital, poderia focar suas campanhas principalmente aos finais de semana e em estações de primavera e verão, conforme a análise dos dados, esses são os períodos com maior utilização por ciclistas casuais.
-Outro fato curioso, todas as bicicletas de carga foram alugadas por ciclistas casuais, isso demonstra que há uma grande utilização por parte de entregadores, seria interessante realizar campanhas de marketing para filiação desse tipo de público também.
+Outro fator curioso, durante o período de analise de 12 meses, todas as bicicletas de carga foram alugadas por ciclistas casuais, isso demonstra que há uma grande utilização por parte de entregadores, seria interessante realizar campanhas de marketing para filiação desse tipo de público também.
 
