@@ -21,10 +21,10 @@ visualizações de dados profissionais.
 
 ## Etapas
 
-1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise no Excel.
+1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise mensal no Excel, verificando média, moda e mediana,  utilizamos a ferramenta de análise de dados e funções, filtramos/classificamos e criamos tabelas dinâmicas com os dados para verificar inconsistências e descobrir tendências.
 
 2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados na linguagem de programação R, realizamos alguns tratamentos como limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados, sumário para análise estatística e visuzalização dos dados com gráficos.
 
-3-(Visualização dos Dados) - Criamos um Dashboard no Power BI, realizamos algums análises e obetemos alguns insights para responder as questões acima.
+3-(Visualização dos Dados) - Criamos um Dashboard no Power BI, realizamos algumas análises e obtivemos alguns insights para responder as questões acima.
 
 4-(Agir, Apresentação) - Criamos uma apresentação para responder as perguntas e informar outros insights que os dados revelaram.
