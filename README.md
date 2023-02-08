@@ -1,7 +1,7 @@
 # Estudo de Caso Cyclistic
 Estudo de caso oferecido pelo curso de: Certificado Analista de Dados Google
 
-Principais ferramentas utilizadas: Planilha Excel, Linguagem R, Power BI e Powerpoint.
+Principais ferramentas utilizadas: Planilha Excel, Linguagem R, Power BI e PowerPoint.
 
 ## Cenário
 
