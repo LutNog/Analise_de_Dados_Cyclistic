@@ -1,6 +1,8 @@
 # Estudo de Caso Cyclistic
 Estudo de caso oferecido pelo curso de: Certificado Analista de Dados Google
 
+Principais ferramentas utilizadas: Planilha Excel, Liguamgem R, Power BI e Powerpoint.
+
 ## Cenário
 
 Você é um analista de dados júnior que trabalha na equipe de analistas de marketing da Cyclistic, uma empresa de compartilhamento de bicicletas
@@ -21,10 +23,17 @@ visualizações de dados profissionais.
 
 ## Etapas
 
-1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise mensal no Excel, verificando média, moda e mediana,  utilizamos a ferramenta de análise de dados e funções, filtramos/classificamos e criamos tabelas dinâmicas com os dados para verificar inconsistências e descobrir tendências.
+1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise mensal no Excel, criamos uma coluna para identificar os dias da semana e outra para somar a quantidade de utilização por horas e data, verificamos média, moda e mediana,  utilizamos a ferramenta de análise de dados e funções, filtramos/classificamos e criamos tabelas dinâmicas com os dados para verificar inconsistências e descobrir tendências.
 
-2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados na linguagem de programação R, realizamos alguns tratamentos como limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados, sumário para análise estatística e visuzalização dos dados com gráficos.
+2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados e as bibliotecas tidyverse, dplyr, ggplot2, tidyr e lubridate na linguagem de programação R, realizamos alguns tratamentos como limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados e dados nulos,  criamos um sumário estatístico, identificamos a média e mediana, min e max, com  os gráficos comparamos dados como: duração de passeio por tipo de membro, aluguel de bicicleta por dias da semana e etc...
 
-3-(Visualização dos Dados) - Criamos um Dashboard no Power BI, realizamos algumas análises e obtivemos alguns insights para responder as questões acima.
+3-(Visualização dos Dados) - Criamos um Dashboard no Power BI utilizando cartões, filtros, gráfico de barra e de linha e utilizamos mapa para identificar as principais localidades dos usuários, realizamos algumas análises e obtivemos alguns insights para responder as questões acima.
 
 4-(Agir, Apresentação) - Criamos uma apresentação para responder as perguntas e informar outros insights que os dados revelaram.
+
+## Conclusão
+
+Os membros anuais utilizam as bicicletas com maior frequência na semana e em maior quantidade, porém os ciclistas casuais alugam as bicicletas por maior duração de tempo, há uma grande demanda de uso por eles nos finais de semanas e nas estações climáticas de primavera e verão.
+O ideal seria campanhas focadas em custo/beneficio para os ciclistas casuais, eles utilizam as bicicletas por longos períodos de tempo, o Marketing de mídia digital, poderia focar suas campanhas principalmente aos finais de semana e em estações de primavera e verão, conforme a análise dos dados, esses são os períodos com maior utilização por ciclistas casuais.
+Outro fato curioso, todas as bicicletas de carga foram alugadas por ciclistas casuais, isso demonstra que há uma grande utilização por parte de entregadores, seria interessante realizar campanhas de marketing para filiação desse tipo de público também.
+
