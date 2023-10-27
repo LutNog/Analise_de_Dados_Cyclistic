@@ -2,6 +2,7 @@
 Estudo de caso oferecido pelo curso de: Certificado Analista de Dados Google
 
 Principais ferramentas utilizadas: Planilha Excel, Linguagem R, Power BI e PowerPoint.
+** OBS: Versão 2 feita em Python.
 
 ## Cenário
 
@@ -23,9 +24,9 @@ visualizações de dados profissionais.
 
 ## Etapas
 
-1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise mensal no Excel, criamos uma coluna para identificar os dias da semana e outra para somar a quantidade de utilização por horas e data, verificamos média, moda e mediana,  utilizamos a ferramenta de análise de dados e funções, filtramos/classificamos e criamos tabelas dinâmicas com os dados para verificar inconsistências e descobrir tendências.
+1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise mensal no Excel, criamos uma coluna para identificar os dias da semana e outra para somar a quantidade de utilização por horas e data, realizamos medidas e testes estatísticos, filtramos/classificamos e criamos gráficos com os dados para verificar inconsistências e descobrir tendências.
 
-2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados e as bibliotecas tidyverse, dplyr, ggplot2, tidyr e lubridate na linguagem de programação R, realizamos alguns tratamentos como limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados e dados nulos,  criamos um sumário estatístico, identificamos a média e mediana, min e max, com  os gráficos comparamos dados como: duração de passeio por tipo de membro, aluguel de bicicleta por dias da semana e etc...
+2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados e e para essa etapa utilizamos diversos pacotes no R quanto em Python, realizamos alguns tratamentos de limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados e outliers
 
 3-(Visualização dos Dados) - Criamos um Dashboard no Power BI utilizando cartões, filtros, gráfico de barra e de linha, utilizamos mapa para identificar as principais localidades dos usuários, realizamos algumas análises e obtivemos alguns insights para responder as questões acima.
 
