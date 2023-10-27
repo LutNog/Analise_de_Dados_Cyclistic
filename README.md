@@ -2,6 +2,7 @@
 Estudo de caso oferecido pelo curso de: Certificado Analista de Dados Google
 
 Principais ferramentas utilizadas: Planilha Excel, Linguagem R, Power BI e PowerPoint.
+
 ** OBS: Versão 2 feita em Python.
 
 ## Cenário
