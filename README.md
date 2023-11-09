@@ -1,9 +1,7 @@
 # Estudo de Caso Cyclistic
 Estudo de caso oferecido pelo curso de: Certificado Analista de Dados Google
 
-Principais ferramentas utilizadas: Planilha Excel, Linguagem R, Power BI e PowerPoint.
-
-** OBS: Versão 2 feita em Python.
+Principais ferramentas utilizadas: R e Python.
 
 ## Cenário
 
@@ -22,20 +20,4 @@ visualizações de dados profissionais.
 2 - Por que os passageiros  casuais iriam querer adquirir planos anuais da Cyclistic?
 
 3 - Como a Cyclistic pode usar a mídia digital para influenciar os passageiros casuais a se tornarem membros?
-
-## Etapas
-
-1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise mensal no Excel, criamos uma coluna para identificar os dias da semana e outra para somar a quantidade de utilização por horas e data, realizamos medidas e testes estatísticos, filtramos/classificamos e criamos gráficos com os dados para verificar inconsistências e descobrir tendências.
-
-2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados e e para essa etapa utilizamos diversos pacotes no R quanto em Python, realizamos alguns tratamentos de limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados e outliers
-
-3-(Visualização dos Dados) - Criamos um Dashboard no Power BI utilizando cartões, filtros, gráfico de barra e de linha, utilizamos mapa para identificar as principais localidades dos usuários, realizamos algumas análises e obtivemos alguns insights para responder as questões acima.
-
-4-(Agir, Apresentação) - Criamos uma apresentação para responder as perguntas e informar outros insights que os dados revelaram.
-
-## Conclusão
-
-Os membros anuais utilizam as bicicletas com maior frequência na semana e em maior quantidade, porém os ciclistas casuais alugam as bicicletas por maior duração de tempo, há uma grande demanda de uso por eles nos finais de semanas e nas estações climáticas de primavera e verão.
-O ideal seria campanhas focadas em custo/beneficio para os ciclistas casuais, eles utilizam as bicicletas por longos períodos de tempo, o Marketing de mídia digital, poderia focar suas campanhas principalmente aos finais de semana e em estações de primavera e verão, conforme a análise dos dados, esses são os períodos com maior utilização por ciclistas casuais.
-Outro fator curioso, durante o período de analise de 12 meses, todas as bicicletas de carga foram alugadas por ciclistas casuais, isso demonstra que há uma grande utilização por parte de entregadores, seria interessante realizar campanhas de marketing para filiação desse tipo de público também.
 
