@@ -1,8 +1,8 @@
 ## Etapas
 
 1-(Coleta dos Dados) - Coletamos os dados da empresa e fizemos uma pré análise mensal no Excel, 
-criamos uma coluna para identificar os dias da semana e outra para somar a quantidade de utilização por horas e data, r
-ealizamos medidas e testes estatísticos, filtramos/classificamos e criamos gráficos com os dados para verificar inconsistências e descobrir tendências.
+criamos uma coluna para identificar os dias da semana e outra para somar a quantidade de utilização por horas e data, realizamos medidas e testes estatísticos, 
+filtramos/classificamos e criamos gráficos com os dados para verificar inconsistências e descobrir tendências.
 
 2-(Tranformação, Análise e Limpeza dos Dados) - Carregamos os dados e e para essa etapa utilizamos diversos pacotes no R quanto em Python, 
 realizamos alguns tratamentos de limpeza, junção dos dados, renomeamos as colunas, verificamos os tipos de dados e outliers
