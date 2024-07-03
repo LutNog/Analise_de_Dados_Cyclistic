@@ -13,12 +13,18 @@ visualizações de dados profissionais.
 
 ## Etapas Realizadas:
 
-Análise Exploratória.
-Tratamento e Limpeza dos Dados.
+Análise Exploratória (Entendendo os dados do dataset).
+
+Tratamento e Limpeza dos Dados (Visualizando inconsistências nos dados e trantando-os com limpeza, medidas de tendência central ou corrigindo caracteres).
+
 Tratamento de Outliers.
-Enriquecimento dos dados.
-Estatística Descritiva.
+
+Enriquecimento dos dados (Inserindo dados de temperadura nos dados e criando tabela com os tempos de duração de cada viagem).
+
+Estatística Descritiva (Medidas centrais, correlações).
+
 Visualização dos Dados.
+
 Respondendos perguntas.
 
 
