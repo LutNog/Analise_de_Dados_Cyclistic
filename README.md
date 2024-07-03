@@ -1,7 +1,6 @@
 # Estudo de Caso Cyclistic
 Estudo de caso oferecido pelo curso de: Certificado Analista de Dados Google
 
-Principais ferramentas utilizadas: R e Python.
 
 ## Cenário
 
@@ -11,6 +10,17 @@ Portanto, sua equipe quer entender como os ciclistas casuais e os membros anuais
 partir desses insights, sua equipe criará uma nova estratégia de marketing para converter passageiros casuais em membros anuais. Mas,
 primeiro, os executivos da Cyclistic devem aprovar suas recomendações que, portanto, devem ser apoiadas com insights de dados convincentes e
 visualizações de dados profissionais.
+
+## Etapas Realizadas:
+
+Análise Exploratória.
+Tratamento e Limpeza dos Dados.
+Tratamento de Outliers.
+Enriquecimento dos dados.
+Estatística Descritiva.
+Visualização dos Dados.
+Respondendos perguntas.
+
 
 ## Perguntas
 ### Três perguntas nortearão o futuro programa de marketing:
